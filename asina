@@ -1984,7 +1984,6 @@ btn("NAME REANIMATE", function()
 
 
 RightShoulder.C0=Lerp(RightShoulder.C0,cfMul(cf(1,0.5,0),angles(0.2617993877991494+0.05235987755982989*sin((sine+3)*3),1.5707963267948966,0)),deltaTime)  LeftShoulder.C0=Lerp(LeftShoulder.C0,cfMul(cf(-1,0.5,0),angles(0.2617993877991494+0.03490658503988659*sin((sine+3)*3),-1.5707963267948966,0)),deltaTime)  RootJoint.C0=Lerp(RootJoint.C0,cfMul(cf(0.3+0.3*sin((sine+1)*1),2+0.5*sin((sine+2)*2),0.3+0.3*sin((sine+1)*1)),angles(-1.7453292519943295+0.08726646259971647*sin((sine+2)*2),0,3.141592653589793)),deltaTime)  LeftHip.C0=Lerp(LeftHip.C0,cfMul(cf(-1,-1,0),angles(0,-1.5707963267948966,0)),deltaTime)  Neck.C0=Lerp(Neck.C0,cfMul(cf(0,1,0),angles(-1.5707963267948966+0.17453292519943295*sin((sine+5)*1),0,3.141592653589793)),deltaTime)  RightHip.C0=Lerp(RightHip.C0,cfMul(cf(1,-1,0),angles(0,1.5707963267948966,0)),deltaTime) 
-
 AurauWeld.C0=Lerp(AurauWeld.C0,cfMul(cf(0,0.3,-1.9),angles(0,3.141592653589793+12.566370614359172*sin(sine*2),0)),deltaTime)
 end,
 		walk = function()
